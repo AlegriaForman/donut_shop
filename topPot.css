@@ -1,0 +1,24 @@
+body {
+  background-color: #E3CFB0;
+}
+h1 {
+  display: block;
+  position: static;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  font-size: 4.5em;
+  border-style: solid none;
+  background-color: #FFFFEE;
+}
+
+table, td {
+    border: 2px solid black;
+    table-layout: auto;
+  }
+#donutTable {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  background-color: #A3C9E8;
+}
