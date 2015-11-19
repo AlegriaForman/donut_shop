@@ -30,9 +30,25 @@ Stores.prototype.render = function() {
 Stores.prototype.donutsPerHour = function() {
   for (var i = 0; i < 12; i++) {
     this.average.push(Math.floor((Math.random() * (this.maxDonuts - this.minDonuts + 1) +
-      this.minDonuts) * this.perPerson));
+    this.minDonuts) * this.perPerson));
   }
 };
+
+document.getElementById('btn').addEventListener('click', function() {
+  var name = document.getElementById('name').value;
+  var minCust = parseInt((document.getElementById('minCust').value), 10);
+  var maxCust = parseInt((document.getElementById('maxCust').value), 10);
+  var perCust = parseInt((document.getElementById('perCust').value), 10);
+  var addloc = [name , minCust , maxCust , perCust];
+  var newStore = new Stores(addloc[0], addloc[1], addloc[2], addloc[3]);
+
+  if (name === '' || minCust === '' || maxCust === '' || perCust === '') {
+    return false;
+  } else {
+    newStore.render();
+    document.getElementById('addStore').reset();
+  }
+});
 
 var down = new Stores('Downtown', 8, 43, 4.5);
 var cap = new Stores('Capitol Hill', 4, 37, 2);

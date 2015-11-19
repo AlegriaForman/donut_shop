@@ -10,15 +10,31 @@ h1 {
   border-style: solid none;
   background-color: #FFFFEE;
 }
-
+legend {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
 table, td {
     border: 2px solid black;
     table-layout: auto;
   }
+fieldset {
+  text-align: left;
+}
+label #btn {
+  font-size: 16px;
+}
 #donutTable {
-  width: 80%;
+  width: 75%;
   margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
+  margin-right: 15%;
+  margin-top: 5%;
   background-color: #A3C9E8;
+}
+#addStore {
+  display: inline-block;
+  background-color: #A3C9E8;
+  border: 2px solid black;
+  margin-top: 4%;
 }
