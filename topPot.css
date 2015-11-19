@@ -1,40 +1,44 @@
 body {
-  background-color: #E3CFB0;
+  background-color: #B0C9E3;
+    font-family: 'Lora', serif;
 }
 h1 {
   display: block;
   position: static;
   text-align: center;
-  font-family: 'Alegreya', serif;
-  font-size: 4.5em;
+  font-size: 4em;
   border-style: solid none;
-  background-color: #FFFFEE;
+  background-color: #5896D9;
 }
 legend {
-  font-size: 20px;
   padding: 5px;
   text-align: center;
 }
 table, td {
     border: 2px solid black;
-    table-layout: auto;
   }
-fieldset {
-  text-align: left;
-}
-label #btn {
-  font-size: 16px;
-}
 #donutTable {
-  width: 75%;
-  margin-left: 10%;
-  margin-right: 15%;
-  margin-top: 5%;
-  background-color: #A3C9E8;
+  margin: 2%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E3E3E3;
+}
+#picsAndNewLoc {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
 }
 #addStore {
-  display: inline-block;
-  background-color: #A3C9E8;
-  border: 2px solid black;
-  margin-top: 4%;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 2%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D1B179;
 }
+#btn {
+  font-size: 16px;
+}
+
