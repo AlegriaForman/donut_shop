@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Top Pot Doughnuts</title>
+  <link href="topPot.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Top Pot Donuts Stores</h1>
+  </header>
+  <table id='picsAndNewLoc'>
+    <tr>
+      <td><img src='images/Donut1.jpeg' height='250' width='380'></td>
+      <td><img src='images/coffeeMaking.gif' height='250' width='252'></td>
+      <td><img src='images/Donut2.jpeg' height='250' width='380'></img></td>
+    </tr>
+  </table>
+  <form id='addStore'>
+    <fieldset>
+      <legend>Enter store information to add new location</legend>
+      <p>
+        <label for='name'>Store Name</label>
+        <input type='text' id='name'></input>
+      </p>
+      <p>
+        <label for='minCust'>Min. Cust/hr</label>
+        <input type='text' id='minCust'></input> </br>
+      </p>
+      <p>
+        <label for='maxCust'>Max. Cust/hr</label>
+        <input type='text' id='maxCust'></input> </br>
+      </p>
+      <p>
+        <label for='perCust'>Donuts/Cust</label>
+        <input type='text' id='perCust'></input> </br>
+      </p>
+      <button id='btn' type="button">Add Store</button> </br>
+    </fieldset>
+  </form>
+  <table id='donutTable'>
+    <tr>
+      <th>Locations</th>
+      <th>7am</th>
+      <th>8am</th>
+      <th>9am</th>
+      <th>10am</th>
+      <th>11am</th>
+      <th>12pm</th>
+      <th>1pm</th>
+      <th>2pm</th>
+      <th>3pm</th>
+      <th>4pm</th>
+      <th>5pm</th>
+      <th>6pm</th>
+      <th>Donuts <br>Sold/Day</br></th>
+    </tr>
+  </table>
+  <footer id="contact">
+    <p>Posted by: Ali Forman | Email:af@gmail.com</p>
+  </footer>
+<script src="topPot.js"></script>
+</body>
