@@ -1,2 +1,4 @@
-Add events to donut shop assignment
-//created form to add new store with event listener on submit button
+Add styles to donut shop assignment
+//added images
+//changed fonts, Thanks to Google Fonts
+//added colors, Thanks to Adobe Color
