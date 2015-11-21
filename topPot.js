@@ -61,3 +61,36 @@ cap.render();
 south.render();
 wedge.render();
 ball.render();
+
+
+document.getElementById('downtown').addEventListener('mouseover', function() {
+  downAdr.style.display = 'block';
+});
+document.getElementById('capitol').addEventListener('mouseover', function() {
+  capAdr.style.display = 'block';
+});
+document.getElementById('southLake').addEventListener('mouseover', function() {
+  southAdr.style.display = 'block';
+});
+document.getElementById('wedgewood').addEventListener('mouseover', function() {
+  wedgeAdr.style.display = 'block';
+});
+document.getElementById('ballard').addEventListener('mouseover', function() {
+  ballardAdr.style.display = 'block';
+});
+
+document.getElementById('downtown').addEventListener('mouseout', function() {
+  downAdr.style.display = 'none';
+});
+ document.getElementById('capitol').addEventListener('mouseout', function() {
+  capAdr.style.display = 'none';
+});
+document.getElementById('southLake').addEventListener('mouseout', function() {
+  southAdr.style.display = 'none';
+});
+document.getElementById('wedgewood').addEventListener('mouseout', function() {
+  wedgeAdr.style.display = 'none';
+});
+document.getElementById('ballard').addEventListener('mouseout', function() {
+  ballardAdr.style.display = 'none';
+});

@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <head>
-  <title>
-    Top Pot Doughnuts</title>
+  <title>Top Pot Doughnuts</title>
   <link href="topPot.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
   <header>
     <h1>Top Pot Donuts Stores</h1>
   </header>
-  <table id='picsAndNewLoc'>
-    <tr>
-      <td><img src='images/Donut1.jpeg' height='250' width='380'></td>
-      <td><img src='images/coffeeMaking.gif' height='250' width='252'></td>
-      <td><img src='images/Donut2.jpeg' height='250' width='380'></img></td>
-    </tr>
-  </table>
-  <form id='addStore'>
-    <fieldset>
-      <legend>Enter store information to add new location</legend>
+  <section id='donutPics'>
+    <img id='pic1' src='Images/Donut1.jpeg' height='250' width='380'>
+    <img id='pic2' src='Images/coffeeMaking.gif' height='250' width='252'>
+    <img id='pic3' src='Images/Donut2.jpeg' height='250' width='380'>
+  </section>
+  <section class='donutHistory'>
+    <article id='art1'>
       <p>
-        <label for='name'>Store Name</label>
-        <input type='text' id='name'></input>
+        Doughnuts have a disputed history. One theory suggests they were invented in North America by Dutch settlers, and in the 19th century, doughnuts were sometimes referred to as one kind of oliekoek (a Dutch word literally meaning "oil cake"), a "sweetened cake fried in fat." Hanson Gregory, an American, claimed to have invented the ring-shaped doughnut in 1847 aboard a lime-trading ship when he was only 16 years old. Gregory was dissatisfied with the greasiness of doughnuts twisted into various shapes and with the raw center of regular doughnuts.  He claimed to have punched a hole in the center
       </p>
+    </article>
+    <article id='art2'>
       <p>
-        <label for='minCust'>Min. Cust/hr</label>
-        <input type='text' id='minCust'></input> </br>
+        of dough with the ship's tin pepper box, and to have later taught the technique to his mother. Smithsonian Magazine states that his mother, Elizabeth Gregory, "made a wicked deep-fried dough that cleverly used her son's spice cargo of nutmeg and cinnamon, along with lemon rind," and "put hazelnuts or walnuts in the center, where the dough might not cook through", and called the food 'doughnuts'. According to anthropologist Paul R. Mullins, the first cookbook mentioning doughnuts was an 1803 English volume which included doughnuts in an appendix of American recipes.
       </p>
+    </article>
+    <article id='art3'>
       <p>
-        <label for='maxCust'>Max. Cust/hr</label>
-        <input type='text' id='maxCust'></input> </br>
+        By the mid-19th century, the doughnut looked and tasted like today's doughnut, and was viewed as a thoroughly American food. Another theory on their origin came to light in 2013, appearing to predate all previous claims, when a recipe for "dow nuts" was found in a book of recipes and domestic tips written in 1800 by the wife of Baron Thomas Dimsdale, the recipe being given to the dowager Baroness by an acquaintance who transcribed for her the cooking instructions of a local delicacy, the "Hertfordshire nut".
       </p>
-      <p>
-        <label for='perCust'>Donuts/Cust</label>
-        <input type='text' id='perCust'></input> </br>
-      </p>
-      <button id='btn' type="button">Add Store</button> </br>
-    </fieldset>
-  </form>
-  <table id='donutTable'>
-    <tr>
-      <th>Locations</th>
-      <th>7am</th>
-      <th>8am</th>
-      <th>9am</th>
-      <th>10am</th>
-      <th>11am</th>
-      <th>12pm</th>
-      <th>1pm</th>
-      <th>2pm</th>
-      <th>3pm</th>
-      <th>4pm</th>
-      <th>5pm</th>
-      <th>6pm</th>
-      <th>Donuts <br>Sold/Day</br></th>
-    </tr>
-  </table>
+    </article>
+  </section>
+  <section id='section3'>
+    <form id='addStore'>
+      <fieldset>
+        <legend>Enter store information to add new location</legend>
+          <p>
+          <label for='name'>Store Name</label>
+          <input type='text' id='name'></input>
+          </p>
+          <p>
+          <label for='minCust'>Min. Cust/hr</label>
+          <input type='text' id='minCust'></input>
+          </p>
+          <p>
+          <label for='maxCust'>Max. Cust/hr</label>
+          <input type='text' id='maxCust'></input>
+          </p>
+          <p>
+          <label for='perCust'>Donuts/Cust</label>
+          <input type='text' id='perCust'></input>
+          </p>
+        <button id='btn' type="button">Add Store</button>
+      </fieldset>
+    </form>
+    <table id='donutTable'>
+      <tr>
+        <th>Locations</th>
+        <th>7am</th>
+        <th>8am</th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12pm</th>
+        <th>1pm</th>
+        <th>2pm</th>
+        <th>3pm</th>
+        <th>4pm</th>
+        <th>5pm</th>
+        <th>6pm</th>
+        <th>Donuts <br>Sold/Day</br></th>
+      </tr>
+    </table>
+    <data>
+      <h3>Locations:</h3>
+      <button id='downtown'>Downtown | Telephone</button>
+      <p id='downAdr'>1201 Madison Street | Tel: (206) 708-7244</p>
+      <button id='capitol'>Capitol Hill | Telephone</button>
+      <p id='capAdr'>609 Summit Avenue E | Tel: (206) 323-7841</p>
+      <button id='southLake'>South Lake Union | Telephone</button>
+      <p id='southAdr'>590 Terry Avenue N | Tel: (206) 995-8296</p>
+      <button id='wedgewood'> Wedgewood | Telephone</button>
+      <p id='wedgeAdr'>720 3rd Avenue | Tel: (206) 454-3694</p>
+      <button id='ballard'>Ballard | Telephone</button>
+      <p id='ballardAdr'>1416 NW 46th | Tel: (206) 454-3767</p>
+    </data>
+  </section>
   <footer id="contact">
-    <p>Posted by: Ali Forman | Email:af@gmail.com</p>
+    <p>Posted by: Ali Forman | Email:af@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;Follow us on Twitter  <span><img src='Images/twitterImage.jpeg'></span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Facebook <img src='Images/facebook.jpeg'></span></p>
   </footer>
 <script src="topPot.js"></script>
 </body>

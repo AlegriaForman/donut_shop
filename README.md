@@ -1,4 +1,13 @@
-Add styles to donut shop assignment
+Add layout to donut shop assignment
+
+HTML
 //added images
-//changed fonts, Thanks to Google Fonts
-//added colors, Thanks to Adobe Color
+//added donut history
+//added addresses and telephone
+//added twitter and facebook logo
+
+CSS
+//used 3 flexboxes container: images | history | form, table and locations
+
+JS
+//added eventlistener | mouseover and mouseout
