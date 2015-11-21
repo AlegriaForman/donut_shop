@@ -1,0 +1,76 @@
+body {
+  background-color: #B0C9E3;
+  font-family: 'Lora', serif;
+  max-width: 1300px;
+}
+header {
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    margin-top: -120px;
+}
+h1 {
+  text-align: center;
+  font-size: 4em;
+  border-style: solid none;
+  background-color: #5896D9;
+}
+legend {
+  padding: 5px;
+  text-align: center;
+}
+button {
+  font-size: 16px;
+}
+tr, td {
+  background-color: #E3E3E3;
+}
+#donutPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#donutPics {
+  margin-top: 100px;
+}
+#pic1 {
+  border: 2px solid black;
+}
+#pic2 {
+  border: 2px solid black;
+}
+#pic3 {
+  border: 2px solid black;
+}
+.donutHistory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#art1, #art2, #art3, #art4 {
+  max-width: 30%;
+  font-size: 15px;
+  padding-left: 1px;
+}
+#section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#donutTable {
+  margin-top: 2%;
+  vertical-align: top;
+}
+#addStore {
+  font-size: 16px;
+  margin-top: 2%;
+}
+#btn {
+  font-size: 16px;
+}
+#downAdr, #capAdr, #southAdr, #wedgeAdr, #ballardAdr {
+  display: none;
+}
+data > p, button {
+  display: block;
+}
